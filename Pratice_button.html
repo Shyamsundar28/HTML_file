@@ -1,0 +1,81 @@
+Pratice_button.html
+
+    .button_section {
+        display: flex;
+        gap: 20px;
+    }
+    .like_button {
+        background-color: rgb(116, 116, 241);
+        color: white;
+        border-color: black;
+        height: 30px; width: 70px;
+        font-height: 40px; font-size: 12px;
+        font-style: bold italic; font-weight: 200;
+        cursor: pointer;
+        border-radius: 3px;
+        transition: opacity 0.14s;
+    }
+    .like_button:hover {
+        opacity: 0.7;
+        box-shadow: inset 0 0 5px rgb(2, 117, 241);
+    }
+        
+    .like_button:active{
+        background-color: rgb(6, 202, 246);
+        transform: translateY(2px);
+        box-shadow: 6px 5px 2px rgb(204, 78, 78);
+    }
+
+
+    .share_button {
+        background-color: rgb(116, 241, 116);
+        color: rgb(5, 0, 0);
+        border-color: black;
+        height: 30px; width: 70px;
+        font-height: 40px; font-size: 12px;
+        font-style: bold italic; font-weight: 200;
+        cursor: pointer;
+        border-radius: 3px;
+        transition: opacity 0.14s;
+    }
+
+    .share_button:hover {
+        opacity: 0.7;
+        box-shadow: inset 0 0 5px rgb(173, 31, 31);
+    }
+
+    .share_button:active{
+        background-color: rgb(222, 246, 6);
+        transform: translateY(2px);
+        box-shadow: 6px 5px 2px rgb(78, 191, 204);
+    }
+
+    .comment_button {
+        background-color: rgb(137, 32, 32);
+        color: white;
+        border-color: black;
+        height: 30px; width: 70px;
+        font-height: 40px; font-size: 12px;
+        font-style: bold italic; font-weight: 200;
+        cursor: pointer;
+        border-radius: 3px;
+        
+    }
+
+
+</style>
+<div class="button_section">
+   
+       
+<button class="like_button" gap="10px">
+    Like
+</button> 
+
+<button class="share_button">
+    Share
+</button>
+
+<button class="comment_button">
+    command
+</button>
+</div>
